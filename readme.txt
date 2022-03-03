@@ -1,6 +1,7 @@
 Chacra Portfolio
 
-Portfolio project with the theme of agricultural production
+Portfolio project with the theme of agricultural production.
+It is a project made with an express server, mongodb and pug as a template.
 
 1-To start, from the terminal start the server with the command "npm start" in the repository folder.
 
