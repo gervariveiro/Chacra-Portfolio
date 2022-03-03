@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://kit.fontawesome.com/62ddc7885f.js" crossorigin="anonymous"></script>
+    <title>Chacra</title>
+</head>
+<body>
+    <div class= "containercontacto">
+        <span class="nav-bar">
+            <i class="fas fa-bars" id="btnMenu"></i>
+            <a href="home.html"> <img class="logo2" src="./assets/granja logo.JPG"></a>
+        </span>
+        <nav class="main-nav">
+            <a href="home.html"> <img class="logo" src="./assets/granja logo.JPG"></a>
+            <ul class="menu" id="menu">
+                <li class="menu__item">
+                    <a href="/fechas/remates" class="menu__link">Remates</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/productos" class="menu__link">Productos</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/turismo" class="menu__link">Turismo</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/contacto" class="menu__link">Contacto</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/ubicacion" class="menu__link">Ubicación</a>
+                </li>
+            </ul>
+        </nav>
+        <script src="menu.js"></script>
+        <div class="maincontacto">
+            <h2>Contacto</h2>
+            <div class="formulario">
+                <form class="form" action="http://localhost:8080/send-email" method="POST">
+                    <input type="text" name="name" placeholder="NOMBRE"><!--autofocus pone el cursor en ese placeholder apenas cargue la pantalla-->
+                    <input type="email" name="email" placeholder="CORREO">
+                    <input type="text" name="phone" placeholder="TELÉFONO">
+                    <textarea class="message" name="message" placeholder="DEJA TU MENSAJE AQUÍ... " id="message"></textarea>
+                    <button class="botonenviar">ENVIAR </button>
+                </form>
+            </div> 
+            <ul class="listacontacto">
+                <li>
+                    <div>
+                        <a href="">
+                            <img class="whatsapp" src="./assets/whatsapp.png">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="">
+                            <img class="facebook" src="./assets/facebook.png">
+                        </a>
+                    </div>
+                </li>    
+            </ul>
+              
+        </div>
+        <div class="footer">@2021</div>
+    </div>
+</body>
+</html>

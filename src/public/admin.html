@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://kit.fontawesome.com/62ddc7885f.js" crossorigin="anonymous"></script>
+    <title>Chacra</title>
+</head>
+<body>
+    <div class= "containeradmin">
+        <span class="nav-bar">
+            <i class="fas fa-bars" id="btnMenu"></i>
+            <a href="home.html"> <img class="logo2" src="./assets/granja logo.JPG"></a>
+        </span>
+        <nav class="main-nav">
+            <a href="home.html"> <img class="logo" src="./assets/granja logo.JPG"></a>
+            <ul class="menu" id="menu">
+                <li class="menu__item">
+                    <a href="/fechas/remates" class="menu__link">Remates</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/productos" class="menu__link">Productos</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/turismo" class="menu__link">Turismo</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/contacto" class="menu__link">Contacto</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/ubicacion" class="menu__link">Ubicación</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/nuevo_admin" class="menu__link">Nuevo Usuario</a>
+                </li>
+            </ul>
+        </nav>
+        <script src="menu.js"></script>
+        <div class="mainlogin">
+            <h2>Solo administradores</h2>
+            <p>Modificar fechas de remates</p>
+            <div class="formulario">
+                <form class="form" action="http://localhost:8080/fechas/updatefecha/6214d2d01912110b1763d0e5" method="POST">
+                    <input type="string" name="date" placeholder="Escriba la fecha aqui EJ: 10/10/2010">
+                    <button class="botonguardar">GUARDAR</button>
+                </form>
+            </div>   
+        </div>
+        <div class="footer">@2021</div>
+    </div>
+</body>
+</html>
