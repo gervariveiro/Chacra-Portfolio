@@ -43,7 +43,7 @@ router.get('/getfechas', (req, res) => {  //----------------> GET TODAS LAS FECH
             .then((data) => res.json(data))
     });
 
-router.get('/remates', (request, response) => {
+router.get('/remates', (request, response) => { //-------------------> Renderiza el PUB y la date de la DB
         Fecha.findOne({},(err, date) => {
             response.render('remates.pug', (date));
           });

@@ -9,7 +9,7 @@ It is a project made with an express server, mongodb and pug as a template.
 
 3-The website has several sections where you can see information about the project. You can login as administrator, create new users and change auction dates.
 
-4-User: user@gmail.com - Password: user124.
+4-For that you must register a new user, you can enter as administrator.
 
 5- In the src folder you can find all the content of the project. Styles, server routes and views.
 
