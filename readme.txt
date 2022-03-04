@@ -7,10 +7,12 @@ It is a project made with an express server, mongodb and pug as a template.
 
 2-Once started, you can access the web from the browser. URL - localhost:8080
 
-3-The website has several sections where you can see information about the project. You can login as administrator, create new users and change auction dates.
+3-You must connect the mongodb in the port localhost:27017/chacra
 
-4-For that you must register a new user, you can enter as administrator.
+4-The website has several sections where you can see information about the project. You can login as administrator, create new users and change auction dates.
 
-5- In the src folder you can find all the content of the project. Styles, server routes and views.
+5-For that you must register a new user, you can enter as administrator.
+
+6- In the src folder you can find all the content of the project. Styles, server routes and views.
 
 Thank you very much for taking your time to check this project. I hope it can be of some use to new developers.
